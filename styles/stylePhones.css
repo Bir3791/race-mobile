@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(12, 66, 148, 0.918);
+  background-color: rgb(98, 99, 99);
 }
 
 .gitLink {
@@ -19,6 +19,15 @@ body {
   cursor: pointer;
 }
 
+.title-container{
+  background-color: rgb(34, 13, 224);
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  top: 10%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
 
 .title {
   font-size: xx-large;
@@ -26,17 +35,17 @@ body {
 }
 
 .main_display {
-  background-color: azure;
+  background-color: rgb(98, 99, 99);
   width: auto;
-  height: 600px;
+  height: 750px;
   display: flex;
   justify-content: space-around;
 }
 
 .race_display {
   width: auto;
-  height: 600px;
-  background-color: cyan;
+  height: 750px;
+  background-color: rgb(4, 0, 255);
   overflow: hidden;
   position: relative;
 }
@@ -44,7 +53,7 @@ body {
 .track {
   position: relative;
   width: 290px;
-  top: -260px;
+  top: -800px;
 }
 
 /* .track_animation {
@@ -137,7 +146,7 @@ body {
   50% {
     background-color: rgb(224, 248, 4);
     color: blue;
-    font-size: 15px;
+    font-size: 20px;
   }
   100% {
     background-color: aliceblue;

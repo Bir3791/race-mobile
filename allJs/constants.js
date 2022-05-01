@@ -5,7 +5,7 @@ const track = document.querySelector(".track"),
   raceDisplay = document.querySelector(".race_display"),
   volumeControls = document.querySelectorAll(".volume"),
   volumeContainer = document.querySelector(".volume-control"),
-  press = document.querySelector(".press")
+  press = document.querySelector(".title-container")
 
 let startEndGame;
 let score = 0;
@@ -21,7 +21,7 @@ let carsOnDIsplay = [];
 let currentPosition;
 let speed = 5;
 let traffick = 1000;
-let curentPosTrack = -280;
+let curentPosTrack = -79;
 let gameOver = true;
 let Audio = document.querySelector("audio");
 let trafikId;
