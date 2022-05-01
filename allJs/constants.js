@@ -21,7 +21,7 @@ let carsOnDIsplay = [];
 let currentPosition;
 let speed = 5;
 let traffick = 1000;
-let curentPosTrack = -79;
+let curentPosTrack = -696;
 let gameOver = true;
 let Audio = document.querySelector("audio");
 let trafikId;

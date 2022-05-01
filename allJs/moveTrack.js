@@ -1,8 +1,8 @@
 function drawTrack() {
-  if (curentPosTrack < -29) {
+  if (curentPosTrack < -100) {
     curentPosTrack = curentPosTrack + (speed + 1);
     track.style.top = curentPosTrack + "px";
   } else {
-    curentPosTrack = -74;
+    curentPosTrack = -696;
   }
 }
