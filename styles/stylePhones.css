@@ -1,0 +1,204 @@
+body {
+  background-color: rgba(12, 66, 148, 0.918);
+}
+
+.gitLink {
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  width: 50px;
+  height: auto;
+}
+
+.volume {
+  position: absolute;
+  right: 40px;
+  top: 26px;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+
+.title {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.main_display {
+  background-color: azure;
+  width: auto;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.race_display {
+  width: auto;
+  height: 600px;
+  background-color: cyan;
+  overflow: hidden;
+  position: relative;
+}
+
+.track {
+  position: relative;
+  width: 290px;
+  top: -260px;
+}
+
+/* .track_animation {
+  animation: TrackMove 1s infinite linear;
+}
+@keyframes TrackMove {
+  0% {
+    top: -280px;
+  }
+  100% {
+    top: 0px;
+  }
+} */
+
+.score_display {
+  width: 500px;
+  height: 500px;
+  background-color: cyan;
+}
+
+.game-over {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 100px;
+  text-align: center;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.raser {
+  position: absolute;
+  width: 40px;
+  bottom: 2%;
+  right: 42%;
+  /* transition: 0.5s; */
+}
+.raser_drive {
+  animation: driving 2s infinite linear;
+}
+
+@keyframes driving {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(+2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.car {
+  position: absolute;
+  width: 60px;
+  top: -100px;
+}
+
+.car0 {
+  right: 71%;
+}
+
+.car1 {
+  right: 39%;
+}
+
+.car2 {
+  right: 6%;
+}
+
+.press {
+  display: block;
+  width: auto;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  background-color: black;
+  animation: blinkin 2s infinite linear;
+}
+
+@keyframes blinkin {
+  0% {
+    background-color: rgb(245, 241, 241);
+  }
+  50% {
+    background-color: rgb(224, 248, 4);
+    color: blue;
+    font-size: 15px;
+  }
+  100% {
+    background-color: aliceblue;
+  }
+}
+
+/* .car_move {
+  animation: CarMove 4s infinite linear;
+}
+
+@keyframes CarMove {
+  0% {
+    top: -280px;
+  }
+  100% {
+    top: 500px;
+  }
+} */
+
+.container-btn {
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+  width: 300px;
+  justify-content: center;
+}
+.btn {
+  margin: 2px;
+}
+
+.score {
+  position: absolute;
+  color: white;
+  top: 0%;
+  right: 10%;
+  z-index: 6;
+}
+.record {
+  position: absolute;
+  color: white;
+  top: 0%;
+  right: 77%;
+  z-index: 6;
+}
+
+.score-container {
+  position: absolute;
+  color: white;
+  top: 4%;
+  right: 10%;
+  z-index: 6;
+}
+.record-container {
+  position: absolute;
+  color: white;
+  top: 4%;
+  right:77%;
+  z-index: 6;
+}
+
+
+.hidden {
+  display: none;
+}
